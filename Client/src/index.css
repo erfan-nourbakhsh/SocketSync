@@ -1,0 +1,19 @@
+/* Apply global styles to the <body> element */
+body {
+  margin: 0; /* Remove default browser margin */
+  
+  /* Use a system font stack for faster rendering and better cross-platform consistency */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased; /* Makes text appear smoother on WebKit browsers (Safari, Chrome) */
+  -moz-osx-font-smoothing: grayscale;  /* Makes text appear smoother on macOS Firefox */
+}
+
+/* Styles for <code> elements */
+code {
+  /* Monospace fonts for code display, with fallback options */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

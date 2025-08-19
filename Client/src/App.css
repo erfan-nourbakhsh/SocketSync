@@ -1,0 +1,15 @@
+/* Styles for the App header section */
+.App-header {
+  background-color: #282c34;       /* Dark gray background */
+  min-height: 100vh;               /* Take up the full viewport height */
+  display: flex;                   /* Use Flexbox layout */
+  flex-direction: column;          /* Arrange children vertically */
+  align-items: center;             /* Center children horizontally */
+  font-size: calc(10px + 2vmin);   /* Responsive font size (scales with viewport) */
+  color: white;                    /* White text */
+}
+
+/* Styles for SweetAlert overlay */
+.swal-overlay {
+    z-index: 999999999999;   /* Ensure overlay stays on top of all elements */
+}

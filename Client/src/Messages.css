@@ -1,0 +1,29 @@
+/* Style the overall message list container */
+.message-list {
+  max-width: 500px; /* Limit the maximum width to 500px */
+  width: 100%;      /* Make it take full width of its parent container */
+}
+
+/* Style each individual message container */
+.message-container {
+  display: flex;           /* Use flex layout for horizontal alignment */
+  flex-direction: row;     /* Arrange children in a row (user, message, date) */
+  padding: 0.5rem;         /* Add padding inside each message row */
+  border-bottom: 1px solid #eeeeee; /* Light gray line between messages */
+}
+
+/* Style the username and date text */
+.user, .date {
+  font-size: 0.625rem;     /* Small font size for metadata */
+  color: #888888;          /* Gray color for less emphasis */
+}
+
+/* Specific style for username */
+.user {
+  min-width: 120px;        /* Ensure enough space to display the user name */
+}
+
+/* Style the message text */
+.message {
+  flex-grow: 1;            /* Take up remaining horizontal space */
+}

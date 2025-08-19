@@ -1,0 +1,11 @@
+/* Style all <form> elements */
+form {
+  max-width: 500px;  /* Limit the maximum width of the form to 500px */
+  width: 100%;       /* Make the form take full width of its container, up to max-width */
+}
+
+/* Style all <input> elements */
+input {
+  width: 100%;       /* Make the input fields take full width of their parent container */
+  padding: 0.5rem;  /* Add 0.5rem (8px) padding inside the input for spacing */
+}
