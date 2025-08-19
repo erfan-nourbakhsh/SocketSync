@@ -189,10 +189,6 @@ const newSocket = io(`http://your-server-url:8080/`);
 - **Error Handling**: Graceful failure management
 - **Success Notifications**: User feedback system
 
-## 🤝 Contributing
-
-This project was developed as an academic exercise in network programming. Contributions, suggestions, and improvements are welcome!
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
